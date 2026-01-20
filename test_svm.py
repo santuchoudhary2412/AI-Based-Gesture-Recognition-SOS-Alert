@@ -1,4 +1,4 @@
-ewrtfimport pandas as pd
+import pandas as pd
 import joblib
 from sklearn.metrics import accuracy_score
 
@@ -19,3 +19,4 @@ y_pred = svm_model.predict(X)
 accuracy = accuracy_score(y, y_pred)
 
 print(f"✅ Model Accuracy: {accuracy * 100:.2f}%")
+
